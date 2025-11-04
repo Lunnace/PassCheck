@@ -1,6 +1,6 @@
 # PassCheck
 
-A modern password strength checker for Windows with live feedback, suggestions, password generator, and optional breached-password lookup via Have I Been Pwned (k-anonymity).
+A modern password strength checker for Windows with live feedback, suggestions, password generator, and optional breached-password lookup.
 
 ## Features
 - Live strength meter and rating
@@ -29,10 +29,8 @@ pyinstaller --noconfirm --onefile --windowed --name PassCheck passcheck_app.py
 - Output: `dist/PassCheck.exe`
 - Optional icon: add `--icon assets/icon.ico` (provide your own ICO file)
 
-## Privacy
-The breach check uses the HIBP range API and sends only the first 5 characters of the password's SHA-1 hash (k‑anonymity). The full password never leaves the app.
 
-## License
-Add your preferred license (e.g., MIT) here.
+
+
 
 
